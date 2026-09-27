@@ -1,0 +1,17 @@
+﻿# Data files (too large for git, not source code)
+dataset/
+student_resource/dataset/
+__MACOSX/
+# Caches, checkpoints, DBs
+.ber_cache*/
+*.duckdb
+*.parquet
+# Outputs (regenerate from code, don't need in git)
+output/
+output_prototype/
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+# OS/editor junk
+.DS_Store
